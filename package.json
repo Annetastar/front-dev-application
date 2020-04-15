@@ -1,16 +1,19 @@
 {
   "name": "app-calendar",
+  "homepage": "https://annetastar.github.io/front-dev-application/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.6.4",
     "v-calendar": "^1.0.3",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "gh-pages": "^2.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
